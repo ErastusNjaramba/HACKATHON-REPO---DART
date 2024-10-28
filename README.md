@@ -1,19 +1,60 @@
-# HACKATHON-REPO---DART
+# Dart Projects: Calculator and Algorithms
 
-**COMPLETE THE TASKS BELOW**
+This repository contains implementations of two main projects in Dart:
+1. **Basic Calculator**: A function to perform basic arithmetic operations.
+2. **Algorithms**: Functions for Palindrome checking and sorting algorithms (Quick Sort and Bubble Sort), along with a performance comparison.
 
-**Palindrome Checker**
-Task: Write a Dart function that checks whether a given string is a palindrome. The function should ignore spaces, punctuation, and be case-insensitive.
-Bonus Points: Extend the function to check palindrome properties for numeric inputs as well.
-Objective: Test string manipulation, logic implementation, and handling edge cases.
- 
-**Sorting Algorithm Implementation**
-Task: Write a Dart function that implements a sorting algorithm (e.g., Quick Sort, Merge Sort, or Bubble Sort) to sort a list of integers. The function should return the sorted list.
-Bonus Points: Implement two different sorting algorithms and compare their performance in terms of execution time.
-Objective: Test understanding of algorithmic complexity and the ability to implement and optimize sorting algorithms.
 
-**Basic Calculator Function**
-Task: Implement a Dart function that takes two numbers and a mathematical operator (+, -, *, /, %) as input and returns the calculated result. The function should handle basic arithmetic operations.
-Bonus Points: Extend the function to handle multi-step operations and include error handling for division by zero.
-Objective: Evaluate proficiency in conditional statements, arithmetic operations, and error handling.
 
+## Project Overview
+
+The goal of these projects is to demonstrate:
+1. **Basic arithmetic and error handling** using conditional statements.
+2. **String manipulation, sorting algorithms, and performance optimization** using Dart.
+
+---
+
+
+## Basic Calculator
+
+The **Basic Calculator** function performs operations on two numbers using a specified operator. It includes basic error handling, especially for division by zero. Additionally, it supports multi-step operations, where you can continue using the result of a previous calculation.
+
+## Palindrome Checker
+
+The `isPalindrome` function determines if a given input (string or numeric) is a palindrome. This function:
+- Ignores spaces, punctuation, and is case-insensitive.
+- Can handle both string and numeric inputs.
+
+
+## Sorting Algorithms
+
+This section contains two sorting functions, **Quick Sort** and **Bubble Sort**, implemented in Dart. Additionally, a function compares the performance of these algorithms.
+
+### Quick Sort
+
+Quick Sort is an efficient sorting algorithm with an average time complexity of `O(n log n)`. It uses a "divide-and-conquer" approach, dividing the list around a pivot element.
+
+### Bubble Sort
+
+Bubble Sort is a simple algorithm with a time complexity of `O(n^2)`, better suited for small datasets. It repeatedly steps through the list, swapping adjacent elements that are in the wrong order.
+
+
+
+## Running the Project
+
+To run the project, ensure you have the Dart SDK installed. Follow these steps:
+
+1. Clone the repository.
+2. Open a terminal and navigate to the project directory.
+3. Run the following command to execute the `main()` function:
+
+   ```bash
+   dart run main.dart
+   ```
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for any new features or improvements. For major changes, consider opening an issue to discuss what you would like to change.
+
+
+This README offers a comprehensive overview, function details, usage examples, and error handling for both the Basic Calculator, Algorithms projects, providing users with easy-to-follow instructions  and running the code.
